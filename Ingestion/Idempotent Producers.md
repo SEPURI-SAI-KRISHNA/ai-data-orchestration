@@ -57,7 +57,7 @@ max.in.flight.requests.per.connection=5
 
 ```
 
-**Implementation Note for the Repo:**
+**What to read further:**
 
 * Document the difference between **Idempotent Producer** (easiest, covers 90% of issues) and **Transactional Producer** (harder, covers 99% of issues).
 * For your AI use case, simple idempotence is usually sufficient unless you are doing "Read-Process-Write" loops (e.g., reading from Kafka, processing, and writing back to Kafka).

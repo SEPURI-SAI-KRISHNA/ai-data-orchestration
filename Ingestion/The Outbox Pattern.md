@@ -62,7 +62,6 @@ CREATE TABLE outbox_events (
 CREATE INDEX idx_outbox_created_at ON outbox_events(created_at);
 ```
 
-Implementation Note for the Repo: In your application code example (Python/Java), show the transaction block.
 
 ```
 # Pseudocode for the Repo

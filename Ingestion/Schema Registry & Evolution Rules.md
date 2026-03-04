@@ -53,7 +53,7 @@ We will enforce **Avro** with **Full Transitive Compatibility**.
 
 ```
 
-**Configuration Note for the Repo:**
+
 In your Kafka Producer configuration (e.g., Python/Java), you must point to the registry and enable the serializer.
 
 ```properties

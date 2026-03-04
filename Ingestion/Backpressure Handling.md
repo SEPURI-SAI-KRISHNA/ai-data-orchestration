@@ -62,7 +62,6 @@ taskmanager.memory.network.min: 64mb
 taskmanager.memory.network.max: 1gb
 ```
 
-Implementation Note for the Repo: Add a section on Client-Side Throttling in your API code (e.g., Python/FastAPI).
 
 ```
 # Pseudocode - Token Bucket Limiter
