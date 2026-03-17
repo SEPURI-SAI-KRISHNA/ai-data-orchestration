@@ -59,3 +59,4 @@ class SaltedPartitioner:
 
 * **The Trade-off:** Explain that salting a key means you now have to do a "Scatter-Gather" read on the consumer side if you need to reconstruct the exact timeline of that specific enterprise tenant.
 * **Over-partitioning:** Why creating 1,000 partitions for a topic doing 10 messages a second is a terrible idea (it exhausts ZooKeeper/KRaft metadata and increases latency).
+
